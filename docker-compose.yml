@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  ubuntu:
+    image: mprather1/ubuntu
+    restart: always
+    container_name: ubuntu
+    volumes: 
+      - ./data/shintech:/home/shintech
+
